@@ -1,0 +1,17 @@
+{
+    "name": "Session Generator",
+    "description": "A Multi session generator made by LDT-Joshuamambo1 known as the founder of LIGHT DESK TEAM",
+    "logo": "https://i.postimg.cc/4NdSqms8/MidKing.jpg",
+    "repository": "https://github.com/Joshuamambo1/crazy-sess",
+    "keywords": ["MidKBAN-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
